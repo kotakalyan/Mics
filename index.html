@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>MY Playlist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/AudioPlayer.css">
+    <style>
+
+    #player{
+        position: relative;
+        max-width: 500px;
+        height: 500px;
+        border: solid 1px gray;
+        background: url(_DSC18181.jpg);
+        background-size:cover;
+    }
+    </style>
+  </head>
+  <!-- <div class="textbox">
+    <ul>
+        <li><a href="#footer">[Contact]</a></li>
+    </ul>
+  
+  </div> -->
+
+  <body>
+      <!-- Audio player container-->
+     <div id='player'></div>
+
+    <!-- Audio player js begin-->
+    <script src="js/AudioPlayer.js"></script>
+
+    <script>
+        // test image for web notifications
+        var iconImage = null;
+
+        AP.init({
+            container:'#player',//a string containing one CSS selector
+            volume   : 0.7,
+            autoPlay : true,
+            notification: false,
+            playList: [
+                {'icon': iconImage, 'title': 'Trance_high_quality', 'file': 'mp3/Trance_high_quality.mp3'},
+                {'icon': iconImage, 'title': 'ANOTHER_LOVE_STORY', 'file': 'mp3/ANOTHER LOVE STORY.mp3'},
+                {'icon': iconImage, 'title': 'Nakkileesu_Golusu_Dj ', 'file': 'mp3/Nakkileesu Golusu Dj.mp3'},
+                {'icon': iconImage, 'title': 'Emai Pothane', 'file': 'mp3/Emai Pothane.mp3'},
+                {'icon': iconImage, 'title': 'chusthu_chusthune_rojulu_gadichaye', 'file': 'mp3/chusthu_chusthune_rojulu_gadichaye.mp3'},
+                {'icon': iconImage, 'title': 'Life Of Ram ', 'file': 'mp3/Life Of Ram.mp3'},
+                {'icon': iconImage, 'title': 'Emo Emo ', 'file': 'mp3/Emo Emo.mp3'},
+                {'icon': iconImage, 'title': 'Neeli Neeli Aakasam', 'file': 'mp3/Neeli Neeli Aakasam.mp3'},
+                {'icon': iconImage, 'title': 'Samajavaragamana ', 'file': 'mp3/Samajavaragamana.mp3'},
+                {'icon': iconImage, 'title': 'Maate Vinadhuga ', 'file': 'mp3/Maate Vinadhuga.mp3'},
+                {'icon': iconImage, 'title': 'Maguva Maguva ', 'file': 'mp3/Maguva Maguva.mp3'},
+                {'icon': iconImage, 'title': 'Undiporaadhey ', 'file': 'mp3/Undiporaadhey.mp3'},
+                {'icon': iconImage, 'title': 'Arere Aakasham ', 'file': 'mp3/Arere Aakasham.mp3'},
+                {'icon': iconImage, 'title': 'Nuvvunte Naa Jathagaa ', 'file': 'mp3/Nuvvunte Naa Jathagaa.mp3'},
+                {'icon': iconImage, 'title': 'Prema Vennela', 'file': 'mp3/Prema Vennela.mp3'},
+                {'icon': iconImage, 'title': 'Kaatuka Kanule ', 'file': 'mp3/Kaatuka Kanule.mp3'},
+                {'icon': iconImage, 'title': 'Pilla Puli ', 'file': 'mp3/Pilla Puli.mp3'},
+                {'icon': iconImage, 'title': 'Andhamaina Premarani', 'file': 'mp3/Andhamaina Premarani.mp3'},
+                {'icon': iconImage, 'title': 'Nee Kannulu ', 'file': 'mp3/Nee Kannulu.mp3'},
+                {'icon': iconImage, 'title': 'Po-Urave ', 'file': 'mp3/Po-Urave.mp3'},
+                {'icon': iconImage, 'title': 'Orasaadha-Usurathan', 'file': 'mp3/Orasaadha-Usurathan.mp3'},
+                {'icon': iconImage, 'title': 'Urvasi Urvasi', 'file': 'mp3/Urvasi Urvasi.mp3'},
+                {'icon': iconImage, 'title': 'Yaen Ennai Pirindhaai', 'file': 'mp3/Yaen Ennai Pirindhaai.mp3'},
+                {'icon': iconImage, 'title': 'Pallikoodam-The-Farewell-Song', 'file': 'mp3/Pallikoodam-The-Farewell-Song.mp3'},
+                {'icon': iconImage, 'title': 'Kannamma', 'file': 'mp3/Kannamma.mp3'},
+                {'icon': iconImage, 'title': 'Sathiyama naan sollurandi song mugen rao', 'file': 'mp3/Sathiyama naan sollurandi song mugen rao.mp3'},
+                {'icon': iconImage, 'title': 'Adiye-Sakkarakatti', 'file': 'mp3/Adiye-Sakkarakatti.mp3'}
+          ]
+        });
+    </script>
+    <!-- Audio player js end-->
+
+    <!-- <footer id="footer" class="footer container">
+      <div class="footer-contact">
+        <h1 class="footer-contact-heading">Contact With Me</h1>
+        <p class="footer-contact-info">Email: ragavendrakalyankota999@gamil.com</p>
+        <p class="footer-contact-info">Mobile: 9908671030</p>
+      </div>
+      <div class="footer-social-follow">
+        <h1 class="footer-social-follow-heading"></h1>
+        <div class="footer-social-icon">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram-square"></i></a>
+          <a href="#"><i class="fab fa-behance-square"></i></a>
+          <a href="#"><i class="fab fa-dribbble-square"></i></a>
+        </div>
+      </div>
+    </footer> -->
+
+  </body>
+</html>
